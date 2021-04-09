@@ -5,5 +5,12 @@ import { Injectable } from '@angular/core';
 })
 export class FirestoreService {
 
+  public username: string | null = '';
+
   constructor() { }
+
+  logout(): void {
+    localStorage.removeItem('username');
+    this.username = '';
+  }
 }

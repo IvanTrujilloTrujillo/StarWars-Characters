@@ -1,1 +1,13 @@
-<p>nav-bar works!</p>
+<nav>
+  <div class="nav-wrapper blue accent-1">
+    <a class="brand-logo center" routerLink="/home" routerLinkActive="active">
+      <img src="../../assets/img/logo-star-wars.png" height="40"  alt="Logo Star Wars">
+    </a>
+    <ul id="nav-mobile" class="left hide-on-med-and-down">
+      <li><a class="nav-link" routerLink="/groups" routerLinkActive="active">My Favorite Character</a></li>
+    </ul>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a role="button" class="nav-link" (click)="logout()">Logout</a></li>
+    </ul>
+  </div>
+</nav>
