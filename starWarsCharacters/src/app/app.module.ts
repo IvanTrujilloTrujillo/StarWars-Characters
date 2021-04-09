@@ -9,6 +9,7 @@ import { CharactersDetailsComponent } from './components/Characters/characters-d
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FavouriteCharacterComponent } from './components/favourite-character/favourite-character.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FavouriteCharacterComponent } from './components/favourite-character/fa
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
