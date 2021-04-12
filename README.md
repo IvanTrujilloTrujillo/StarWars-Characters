@@ -1,3 +1,1 @@
-# StarWars-Characters
-
-# Still in develop
+# StarWars-Characters (in develop)
